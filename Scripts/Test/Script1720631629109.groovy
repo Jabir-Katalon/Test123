@@ -7,9 +7,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 def driverPath = System.getProperty("user.dir") + "/Include/drivers/chromedriver_mac64/chromedriver"; // Added missing slash before Include
 System.setProperty("webdriver.chrome.driver", driverPath);
-//Thread.sleep(5000) // Adding a delay before initializing the driver
+Thread.sleep(15000) // Adding a delay before initializing the driver
 WebDriver driver = new ChromeDriver();
 driver.navigate().to('https://google.com')
+driver.close()
 
 
 //WebUI.openBrowser('')
