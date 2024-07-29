@@ -19,17 +19,14 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.navigateToUrl('https://www.google.com/')
 
-WebUI.switchToWindowTitle('CURA Healthcare Service')
+WebUI.click(findTestObject('Object Repository/Google/Google2/Page_Google/button_Stay signed out'))
 
-WebUI.click(findTestObject('Object Repository/Test3/Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.verifyElementText(findTestObject('Object Repository/Google/Google2/Page_Google/input_Report inappropriate predictions_btnK'), 
+    '')
 
-WebUI.doubleClick(findTestObject('Object Repository/Test3/Page_CURA Healthcare Service/p_Please login to make appointment'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Test3/Page_CURA Healthcare Service/p_Please login to make appointment'), 0)
-
-//WebUI.verifyEqual(10, 1)
+WebUI.verifyEqual(findWindowsObject, findTestCase)
 
 WebUI.closeBrowser()
 

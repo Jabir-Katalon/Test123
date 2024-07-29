@@ -1,0 +1,41 @@
+[38;5;112m[Appium][0m Welcome to Appium v2.11.1 (REV bab86d5de571015b63fd8fc30b47bbe072a1290e)
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m60640[39m }
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Attempting to load driver xcuitest...
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:60640/wd/hub
+[38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
+	http://127.0.0.1:60640/wd/hub (only accessible from the same host)
+	http://192.168.0.103:60640/wd/hub
+	http://169.254.177.117:60640/wd/hub
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@3.7.0 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m   - xcuitest@7.22.1 (automationName 'XCUITest')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 3 ms - 200 
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 2 ms - 200 
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m {"desiredCapabilities":{"appium:noReset":true,"appium:waitForAppScript":"true;","appium:udid":"00008030-000649EE0A10C02E","appium:newCommandTimeout":1800,"appium:wdaLocalPort":60711,"appium:deviceName":"Mohammed’s iPad","platformName":"iOS","appium:automationName":"XCUITest","appium:fullReset":false,"appium:app":"/Users/mohammedjabir/Downloads/Chatter.app","appium:platformVersion":"17.5.1"},"capabilities":{"firstMatch":[{"appium:app":"/Users/mohammedjabir/Downloads/Chatter.app","appium:automationName":"XCUITest","appium:deviceName":"Mohammed’s iPad","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformVersion":"17.5.1","appium:udid":"00008030-000649EE0A10C02E","appium:waitForAppScript":"true;","appium:wdaLocalPort":60711,"platformName":"ios"}]}}
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'XCUITest' and platformName 'ios'
+[38;5;112m[Appium][0m The 'xcuitest' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/mohammedjabir/.appium/node_modules/appium-xcuitest-driver
+[38;5;140m[AppiumDriver@2020][0m Appium v2.11.1 creating new XCUITestDriver (v7.22.1) session
+[38;5;140m[AppiumDriver@2020][0m Checking BaseDriver versions for Appium and XCUITestDriver
+[38;5;140m[AppiumDriver@2020][0m Appium's BaseDriver version is 9.11.1
+[38;5;140m[AppiumDriver@2020][0m XCUITestDriver's BaseDriver version is 9.11.1
+[38;5;43m[XCUITestDriver@7ab8][0m The following provided capabilities were not recognized by this driver:
+[38;5;43m[XCUITestDriver@7ab8][0m   waitForAppScript
+[38;5;148m[ca6403c8][0m[38;5;43m[XCUITestDriver@7ab8][0m Session created with session id: ca6403c8-bb3e-42b3-98e5-d0c52f126fab
+[38;5;148m[ca6403c8][0m[38;5;43m[XCUITestDriver@7ab8][0m Determining device to run tests on: udid: '00008030-000649EE0A10C02E', real device: true
+[38;5;148m[ca6403c8][0m[38;5;43m[XCUITestDriver@7ab8][0m Normalized platformVersion capability value '17.5.1' to '17.5'
+[38;5;148m[ca6403c8][0m[38;5;123m[BaseDriver][0m Using local app '/Users/mohammedjabir/Downloads/Chatter.app'
+[38;5;148m[ca6403c8][0m[38;5;43m[XCUITestDriver@7ab8][0m Using WDA path: '/Users/mohammedjabir/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[38;5;148m[ca6403c8][0m[38;5;43m[XCUITestDriver@7ab8][0m Using WDA agent: '/Users/mohammedjabir/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[38;5;148m[ca6403c8][0m[38;5;43m[XCUITestDriver@7ab8][0m Setting up real device
+[38;5;148m[ca6403c8][0m[38;5;23m[DevCon Factory][0m Releasing connections for 00008030-000649EE0A10C02E device on any port number
+[38;5;148m[ca6403c8][0m[38;5;23m[DevCon Factory][0m No cached connections have been found
+[38;5;148m[ca6403c8][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session 500 516 ms - 920 
+[38;5;112m[Appium][0m Received SIGTERM - shutting down
+[38;5;86m[HTTP][0m Waiting until the server is closed
+[38;5;86m[HTTP][0m Received server close event
