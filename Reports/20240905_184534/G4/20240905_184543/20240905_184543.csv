@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+G4,,,,05-09-2024 18:45:53,05-09-2024 18:46:27,33.201s,FAILED
+,,,,,,,
+Test Cases/Google,,,,05-09-2024 18:46:09,05-09-2024 18:46:13,3.670s,FAILED
+"openBrowser("""")",,,,05-09-2024 18:46:09,05-09-2024 18:46:13,3.645s,FAILED
+,,,,,,,
+Test Cases/Google1,,,,05-09-2024 18:46:23,05-09-2024 18:46:27,3.090s,FAILED
+"openBrowser("""")",,,,05-09-2024 18:46:24,05-09-2024 18:46:27,3.059s,FAILED

@@ -21,6 +21,4 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://google.com')
 
-
-
 WebUI.closeBrowser()
