@@ -16,14 +16,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import Keywords.CustomWebUI
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://google.com')
+WebUI.navigateToUrl('https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_iframe')
 
+//WebUI.switchToWindowTitle('W3Schools Tryit Editor')
 
+WebUI.click(findTestObject('Object Repository/iframe ex/Page_W3Schools Tryit Editor/a_Log in'))
 
-CustomWebUI.waitForElementToDisappear(findTestObject('Object Repository/iFrame/Page_W3Schools Tryit Editor/h2_Log In'), 0)
+WebUI.waitForElementNotVisible(findTestObject('Object Repository/iframe ex/Page_W3Schools Tryit Editor/katalon-div_id'), 5)
 
 WebUI.closeBrowser()
+

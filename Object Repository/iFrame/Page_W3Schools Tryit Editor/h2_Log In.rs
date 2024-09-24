@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h2_Log In</name>
+   <tag></tag>
+   <elementGuidId>16b256a4-d242-4c2a-b13a-fce3fb312922</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div[2]/div/h2</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value></value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>8da08cf1-f0b3-4f3e-8763-79f0cbc37f17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Log In</value>
+      <webElementGuid>e893f209-9231-446a-946b-1d4f649d5b9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;LoginFullPage_loginWrapper__NemNw&quot;]/div[@class=&quot;LoginLayout_container__cHEd5&quot;]/div[@class=&quot;LoginLayout_main__ZMs2+&quot;]/div[@class=&quot;NewLoginPage_container__Y92Wa&quot;]/div[@class=&quot;LoginPanel_login_panel__eQd6J&quot;]/div[@class=&quot;LoginPanel_login_signup__N4spj&quot;]/h2[1]</value>
+      <webElementGuid>525cbe65-0be6-4d5a-888b-4b858a65c319</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/iFrame/Page_W3Schools Tryit Editor/iframe</value>
+      <webElementGuid>95786ff1-013a-4584-a77c-3b4202b768b7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div[2]/div/h2</value>
+      <webElementGuid>746091f0-83a3-44a0-a7b9-f9c8554e05b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h2</value>
+      <webElementGuid>440fe35d-c913-44f3-952b-8dbbdf010f84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'Log In' or . = 'Log In')]</value>
+      <webElementGuid>2340ba68-c865-45ff-956c-0eb611c63d7f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
