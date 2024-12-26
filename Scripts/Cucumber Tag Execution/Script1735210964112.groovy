@@ -21,11 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_iframe')
 
-WebUI.click(findTestObject('Object Repository/New Folder iframe/Page_W3Schools Tryit Editor/a_Log in'))
-
-CustomWebUI.waitForElementToDisappear(findTestObject('Object Repository/Coustome/Page_W3Schools Tryit Editor/a_JAVASCRIPT'), 5)
-
 WebUI.closeBrowser()
 
-WebUI.delay(1)
+
 
