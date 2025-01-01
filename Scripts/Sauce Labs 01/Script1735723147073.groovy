@@ -17,16 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://www.google.com/')
-
-//WebUI.click(findTestObject('Object Repository/Google/Google2/Page_Google/button_Stay signed out'))
-//
-//WebUI.verifyElementText(findTestObject('Object Repository/Google/Google2/Page_Google/input_Report inappropriate predictions_btnK'), 
-//    '')
-//
-//WebUI.verifyEqual(findWindowsObject, findTestCase)
-
-WebUI.closeBrowser()
-

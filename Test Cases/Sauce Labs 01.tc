@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Sauce Labs 01</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>22585fa3-224e-4e8c-b100-2fa51bc8efe1</testCaseGuid>
+</TestCaseEntity>
